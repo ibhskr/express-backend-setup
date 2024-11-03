@@ -1,6 +1,7 @@
 import express from "express";
-import route from "./src/routers/router.js";
-import connectDB from "./src/db/connectDB.js";
+import route from "./template/routers/router.js";
+
+import connectDB from "./template/db/connectDB.js";
 process.loadEnvFile();
 
 // create a instance of express application and store it in app variable
